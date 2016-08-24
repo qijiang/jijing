@@ -20,7 +20,6 @@ p {
     color: #78848B;
 }
 
-
 h3 {
     font-size: 20px;
     margin-bottom: 40px;
@@ -31,14 +30,13 @@ h5 {
 }
 
 
-/*
 .tick {
-	display: inline-block;
+    display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(http://x-team.com/wp-content/uploads/2015/07/tick-light.png);
+    background-image: url(../img/tick-light.png);
 }
-*/
+
 
 ul {
     padding: 0;
@@ -48,11 +46,31 @@ li {
     list-style-type: none;
 }
 
-input,
-.inputarea {
+.input-height {
+    height: 260px;
+}
+
+.inputarea-height {
+    height: 300px;
+}
+
+.tagged-input-container {
+    position: relative;
+}
+
+.tagged-input-container .tag {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: red;
+    font-size: 20px;
+}
+
+.hire-form input,
+.hire-form textarea {
     border: 0;
     outline: none;
-    width: 560px;
+    width: 100%;
     padding: 20px;
     font-size: 15px;
     background-color: #F2F2F2;
@@ -60,24 +78,8 @@ input,
     border-radius: 3px;
 }
 
-.input-height {
-    height: 260px;
-}
-
-.inputarea {
-    height: 300px;
-}
-
-.position-r {
-    position: relative;
-}
-
-.tag {
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    color: red;
-    font-size: 20px;
+.hire-form li {
+    width: 560px;
 }
 
 .btn {

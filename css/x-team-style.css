@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container p,
+.container h3,
+.container h5 {
+    text-align: center;
+}
+
+h3,
+h5,
+p {
+    color: #78848B;
+}
+
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+
+/*
+.tick {
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(http://x-team.com/wp-content/uploads/2015/07/tick-light.png);
+}
+*/
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+input,
+.inputarea {
+    border: 0;
+    outline: none;
+    width: 560px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: #F2F2F2;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.input-height {
+    height: 260px;
+}
+
+.inputarea {
+    height: 300px;
+}
+
+.position-r {
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: red;
+    font-size: 20px;
+}
+
+.btn {
+    width: 420px;
+    height: 54px;
+    background-color: #f3261b;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-center {
+    width: 420px;
+    margin: 0 auto;
+}
